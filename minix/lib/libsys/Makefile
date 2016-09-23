@@ -104,6 +104,7 @@ SRCS+=  \
 	vm_prepare.c \
 	vm_procctl.c \
 	vm_set_priv.c \
+	sys_sample.c \
 	vm_update.c
 
 .if ${MKPCI} != "no"
